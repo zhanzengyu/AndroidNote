@@ -35,3 +35,7 @@
 3. 在终端输入命令：adb shell netcfg,在显示的信息中查找wlan0所在的行，会看到一串IP值xx.xx.xx.xx。
 
 4. 在终端输入命令：adb connect xx.xx.xx.xx:5555
+
+**原文可以点击下面链接传送**  
+[博客地址](https://nesger.github.io//posts/android-wireless)  
+[简书地址](http://www.jianshu.com/p/ce92c0ee132f)
