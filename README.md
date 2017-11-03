@@ -9,6 +9,16 @@
   >numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
 
+### View篇
+**Q**:如何获取一个未展示的view的宽高？
+
+**A**:使用MeasureSpec.makeMeasureSpec(0, MeasureSpec. UNSPECIFIED);
+```
+view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+                View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+```
+[参考](https://stackoverflow.com/questions/15862052/get-the-measures-of-popup-window)
+
 ### 异常篇
 **Q**:如何解决Unsupported major.minor version 52.0问题？  
 
