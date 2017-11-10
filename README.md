@@ -37,7 +37,7 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 参考  
   
 [如何解决Unsupported major.minor version 52.0问题？](http://www.jianshu.com/p/5eebd3c609d6)
-<span id="debug"></span>
+<span id="debug">调试篇</span>
 ### 调试篇
 **Q**:android开发时如何无线连接手机？
 
