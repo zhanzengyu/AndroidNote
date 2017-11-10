@@ -1,5 +1,11 @@
 # AndroidFamily
 
+- [NumberPicker篇](#numberpicker)
+- [View篇](#view)
+- [异常篇](#exception)
+- [调试篇](#debug)
+
+<span id="numberpicker"></span>
 ### NumberPicker篇
 - Q:如何设置只能滑动改变值，不能通过点击和键盘修改。  
   A:XML修改方法为
@@ -8,7 +14,7 @@
   代码中修改方法为
   >numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
-
+<span id="view"></span>
 ### View篇
 **Q**:如何获取一个未展示的view的宽高？
 
@@ -18,7 +24,7 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
                 View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
 ```
 [参考](https://stackoverflow.com/questions/15862052/get-the-measures-of-popup-window)
-
+<span id="exception"></span>
 ### 异常篇
 **Q**:如何解决Unsupported major.minor version 52.0问题？  
 
@@ -31,7 +37,7 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 参考  
   
 [如何解决Unsupported major.minor version 52.0问题？](http://www.jianshu.com/p/5eebd3c609d6)
-
+<span id="debug"></span>
 ### 调试篇
 **Q**:android开发时如何无线连接手机？
 
