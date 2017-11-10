@@ -7,8 +7,10 @@
 
 
 <h3 id="numberpicker">NumberPicker篇</h3>
-- Q:如何设置只能滑动改变值，不能通过点击和键盘修改。  
-  A:XML修改方法为
+
+**Q**:如何设置只能滑动改变值，不能通过点击和键盘修改。 
+
+**A**:XML修改方法为
   >android:descendantFocusability="blocksDescendants" 
   
   代码中修改方法为
@@ -16,6 +18,7 @@
 
 
 <h3 id="view">View篇</h3>
+
 **Q**:如何获取一个未展示的view的宽高？
 
 **A**:使用MeasureSpec.makeMeasureSpec(0, MeasureSpec. UNSPECIFIED);
@@ -26,6 +29,7 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 [参考](https://stackoverflow.com/questions/15862052/get-the-measures-of-popup-window)
 
 <h3 id="exception">异常篇</h3>
+
 **Q**:如何解决Unsupported major.minor version 52.0问题？  
 
 **A**:修改gradle命令的执行环境。一般命令行打包会出现这个问题。  
@@ -39,6 +43,7 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 [如何解决Unsupported major.minor version 52.0问题？](http://www.jianshu.com/p/5eebd3c609d6)
 
 <h3 id="debug">调试篇</h3>
+
 **Q**:android开发时如何无线连接手机？
 
 **A**:  
