@@ -3,7 +3,7 @@
 - [NumberPicker篇](#numberpicker)
 - [View篇](#view)
 - [异常篇](#exception)
-- [调试篇](#debug)
+- [test](#test)
 
 <span id="numberpicker"></span>
 ### NumberPicker篇
@@ -55,3 +55,8 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 **原文可以点击下面链接传送**  
 [博客地址](https://nesger.github.io//posts/android-wireless)  
 [简书地址](http://www.jianshu.com/p/ce92c0ee132f)
+
+
+
+
+<span id="test">test</span>
