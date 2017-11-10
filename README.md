@@ -3,7 +3,7 @@
 - [NumberPicker篇](#numberpicker)
 - [View篇](#view)
 - [异常篇](#exception)
-- [test](#test)
+- [test](#1)
 
 <span id="numberpicker"></span>
 ### NumberPicker篇
@@ -59,4 +59,4 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 
 
 
-<span id="test">test</span>
+<h3 id="1">test</h3>
