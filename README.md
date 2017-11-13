@@ -4,6 +4,8 @@
 - [View篇](#view)
 - [异常篇](#exception)
 - [调试篇](#debug)
+- [线程篇](#thread)
+
 
 
 <h3 id="numberpicker">NumberPicker篇</h3>
@@ -60,3 +62,29 @@ view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
 **原文可以点击下面链接传送**  
 [博客地址](https://nesger.github.io//posts/android-wireless)  
 [简书地址](http://www.jianshu.com/p/ce92c0ee132f)
+
+
+<h3 id="thread">线程篇</h3>
+
+**Q**:android 判断当前线程是不是主线程的几种方法?
+
+**A**:  
+方法一：
+```
+public boolean isMainThread() {
+    return Looper.getMainLooper() == Looper.myLooper();
+}
+```
+方法二：
+```
+public boolean isMainThread() {
+    return Looper.getMainLooper().getThread() == Thread.currentThread();
+}
+```
+方法三：
+```
+public boolean isMainThread() {
+    return Looper.getMainLooper().getThread().getId() == Thread.currentThread().getId();
+}
+```
+[参考](http://blog.csdn.net/ddddwwww2/article/details/53521831)
