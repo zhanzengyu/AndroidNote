@@ -5,6 +5,7 @@
 - [异常篇](#exception)
 - [调试篇](#debug)
 - [线程篇](#thread)
+- [compareTo](#compareTo)
 
 
 
@@ -88,3 +89,8 @@ public boolean isMainThread() {
 }
 ```
 [参考](http://blog.csdn.net/ddddwwww2/article/details/53521831)
+
+<h3 id="compareTo">compareTo</h3>
+compareTo的结果可以通过执行减法来得到。
+
+结果取值-1，1，0
