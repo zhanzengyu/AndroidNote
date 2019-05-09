@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://github.com/nesger/AndroidNote/utils/BaseRecyclerViewAdapter.java
+ * https://github.com/nesger/AndroidNote/blob/master/utils/BaseRecyclerViewAdapter.java
  * @param <T>
  */
 public abstract class BaseRecyclerViewAdapter<T>  extends RecyclerView.Adapter<BaseRecyclerViewAdapter.ViewHolder> {
