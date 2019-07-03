@@ -1,4 +1,4 @@
-# AndroidFamily
+# AndroidNote
 
 - [实用工具类](#userful_utils)
 - [有用博客收集](#userful_blog)
@@ -11,6 +11,7 @@
 - [将异常栈放到字符串](#StringWriter)
 - [正负值相关](#positive_an_negative)
 - [strings.xml](#strings)
+- [ScrollView 踩坑](#ScrollView)
 
 <h3 id="userful_utils">实用工具类</h3>
 
@@ -136,3 +137,7 @@ Android滑动，从左往右滑动mScrollX是负值。从上往下滑动mScrollY
 
 <h3 id="strings">strings.xml</h3>
 字符串里面&应该写成&amp;
+
+
+<h3 id="ScrollView">ScrollView</h3>
+ScrollView 上面不能显示 ImageView，替换方案是使用 Button
