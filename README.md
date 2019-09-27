@@ -9,7 +9,6 @@
 - [线程篇](#thread)
 - [compareTo](#compareTo)
 - [将异常栈放到字符串](#StringWriter)
-- [正负值相关](#positive_an_negative)
 - [strings.xml](#strings)
 - [ScrollView 踩坑](#ScrollView)
 
@@ -114,26 +113,9 @@ compareTo的结果可以通过执行减法来得到。
 StringWriter sw = new StringWriter();  
 PrintWriter pw = new PrintWriter(sw);  
 e.printStackTrace(pw);  
-
 sw.toString()
 
 
-
-<h3 id="positive_an_negative">正负值相关</h3>
-
-Android坐标，X轴往右值逐渐增大。Y轴往下值逐渐增大。
-
-Android滑动，从左往右滑动mScrollX是负值。从上往下滑动mScrollY是负值。
-
-第二个看起来似乎和第一个有点矛盾？如何记忆呢？
-
-其实只要记住「力的作用是相互的」就行了。这样滑动得出的结果和原本的结果相反。
-
-这样第二个和第一个就吻合了。
-
-当然这只是一种记忆方式，实际的情况其实还是可以按照第一种方式理解的。
-
-比如水平方向，由于mScrollX为View左边缘-View内容左边缘。而从左往右滑，View内容在View左边缘右边，因此mScrollX为负。
 
 <h3 id="strings">strings.xml</h3>
 字符串里面&应该写成&amp;
