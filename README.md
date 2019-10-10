@@ -8,7 +8,6 @@
 - [调试篇](#debug)
 - [线程篇](#thread)
 - [compareTo](#compareTo)
-- [strings.xml](#strings)
 
 <h3 id="userful_utils">实用工具类</h3>
 
@@ -104,10 +103,3 @@ public boolean isMainThread() {
 compareTo的结果可以通过执行减法来得到。
 
 结果取值-1，1，0
-
-
-
-
-<h3 id="strings">strings.xml</h3>
-字符串里面&应该写成&amp;
-
