@@ -10,7 +10,6 @@
 - [compareTo](#compareTo)
 - [将异常栈放到字符串](#StringWriter)
 - [strings.xml](#strings)
-- [ScrollView 踩坑](#ScrollView)
 
 <h3 id="userful_utils">实用工具类</h3>
 
@@ -120,6 +119,3 @@ sw.toString()
 <h3 id="strings">strings.xml</h3>
 字符串里面&应该写成&amp;
 
-
-<h3 id="ScrollView">ScrollView</h3>
-ScrollView 上面不能显示 ImageView，替换方案是使用 Button
