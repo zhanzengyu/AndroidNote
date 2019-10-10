@@ -8,7 +8,6 @@
 - [调试篇](#debug)
 - [线程篇](#thread)
 - [compareTo](#compareTo)
-- [将异常栈放到字符串](#StringWriter)
 - [strings.xml](#strings)
 
 <h3 id="userful_utils">实用工具类</h3>
@@ -106,13 +105,6 @@ compareTo的结果可以通过执行减法来得到。
 
 结果取值-1，1，0
 
-
-<h3 id="StringWriter">StringWriter</h3>
-
-StringWriter sw = new StringWriter();  
-PrintWriter pw = new PrintWriter(sw);  
-e.printStackTrace(pw);  
-sw.toString()
 
 
 
