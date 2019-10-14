@@ -2,7 +2,6 @@
 
 - [实用工具类](#userful_utils)
 - [有用博客收集](#userful_blog)
-- [NumberPicker篇](#numberpicker)
 - [View篇](#view)
 - [异常篇](#exception)
 - [调试篇](#debug)
@@ -16,18 +15,6 @@
 <h3 id="userful_blog">有用博客收集</h3>
 
 [ItemDecoration in Android](https://proandroiddev.com/itemdecoration-in-android-e18a0692d848)
-
-
-<h3 id="numberpicker">NumberPicker篇</h3>
-
-**Q**:如何设置只能滑动改变值，不能通过点击和键盘修改。 
-
-**A**:XML修改方法为
-  >android:descendantFocusability="blocksDescendants" 
-  
-  代码中修改方法为
-  >numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
-
 
 <h3 id="view">View篇</h3>
 
