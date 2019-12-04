@@ -1,16 +1,15 @@
 # AndroidNote
 
-
 单例模式的各种实现->[单例模式](https://github.com/nesger/AndroidNote/tree/master/singleton)
 
-<hr/>
+[实用 Linux 命令](./linux.md)
 
+<hr/>
 **问题解决方法见 [Issues](https://github.com/nesger/AndroidNote/issues)**
 
 **实用技巧见 [Wiki](https://github.com/nesger/AndroidNote/wiki)**
 
 <hr/>
-
 **Issues:**
 
 [External Native Build Issues: SIMPLE: Error configuring](https://github.com/nesger/AndroidNote/issues/1)
