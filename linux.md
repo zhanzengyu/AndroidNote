@@ -1,0 +1,69 @@
+# Linux
+
+### 苹果电脑弹窗
+```
+osascript -e 'tell app "System Events" to display dialog "task finish"'
+```
+
+### 截屏
+```
+adb shell screencap -p /sdcard/screencap.png
+```
+
+### 录制视频
+```
+adb shell screenrecord /sdcard/screenrecord.mp4
+```
+
+更多截屏和录制视频查看[参考链接](https://blog.csdn.net/gdutxiaoxu/article/details/69802895)
+
+### 获取手机当前显示的 Activity 名称
+```
+adb shell dumpsys window w | grep \\/ | grep name=
+```
+### 查找
+- 递归查看当前目录下存在指定字符串的文件  
+grep -rn '指定字符串' *
+- 查看当前目录下指定文件名  
+find . -name '文件名'
+
+### 查看占用端口的程序
+>lsof -i:8009
+
+上面👆的8009指的是端口号
+
+
+### Jekyll
+Run: 
+>bundle exec jekyll serve -w
+
+
+### 拉取最新缓存
+
+./gradlew build --refresh-dependencies 
+
+
+### 去掉远程错误合并记录
+
+**操作需谨慎。**  
+**操作需谨慎。**  
+**操作需谨慎。**  
+建议新建一个 backup 分支，然后再操作。  
+确保没问题之后，再删除 backup 分支。  
+```
+git reset --hard $lognum 
+```
+其中 **$lognum** 可以通过 **git log** 来查看要回退的具体记录。  
+然后看到控制台回退成功之后。  
+再执行下面命令：
+```
+git push --force  
+```
+受保护分支不能 push。  
+需要先设置为非保护，然后 push 后再设置回来。  
+另外设置回退过程要保证没有其他开发者对该回退分支做操作，否则可能会丢失其他开发提交的记录。
+
+### git revert local commit
+```
+git reset HEAD~1
+```
