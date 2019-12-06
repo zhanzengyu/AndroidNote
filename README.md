@@ -6,6 +6,8 @@
 
 [通用 Adapter](./utils/BaseRecyclerViewAdapter.java)
 
+[模版方法演示通用 Activity](./utils/BaseActivity.java)
+
 [实用 Linux 命令](./linux.md)
 
 <hr/>
