@@ -2,6 +2,10 @@
 
 单例模式的各种实现->[单例模式](https://github.com/nesger/AndroidNote/tree/master/singleton)
 
+[ViewStub 示例项目](./viewstub)
+
+[通用 Adapter](./utils/BaseRecyclerViewAdapter.java)
+
 [实用 Linux 命令](./linux.md)
 
 <hr/>
