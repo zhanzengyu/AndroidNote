@@ -1,5 +1,15 @@
 # Linux
 
+### 我的电脑 alias 配置
+
+```
+alias gits='git status'
+alias gitp='git pull'
+alias cdd='cd ~/Desktop'
+alias vi='vim'
+alias vib='vi ~/.bash_profile'
+```
+
 ### 苹果电脑弹窗
 ```
 osascript -e 'tell app "System Events" to display dialog "task finish"'
