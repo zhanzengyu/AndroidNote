@@ -8,6 +8,7 @@ alias gitp='git pull'
 alias cdd='cd ~/Desktop'
 alias vi='vim'
 alias vib='vi ~/.bash_profile'
+alias sob='source ~/.bash_profile'
 ```
 
 ### 苹果电脑弹窗
