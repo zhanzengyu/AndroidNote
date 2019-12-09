@@ -78,3 +78,20 @@ git push --force
 ```
 git reset HEAD~1
 ```
+
+### git 分支重命名
+
+**没有推送到远程，本地修改**
+
+```
+git branch -m oldName newName
+```
+
+**推送到远程，本地修改**
+
+```
+git branch -m oldName newName
+git push --delete origin oldName
+git push origin newName
+git branch --set-upstream-to origin/newName
+```
