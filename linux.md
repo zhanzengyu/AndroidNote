@@ -95,3 +95,11 @@ git push --delete origin oldName
 git push origin newName
 git branch --set-upstream-to origin/newName
 ```
+
+**git config**
+
+```
+git config --list
+git config --global user.name xxx
+git config --global user.email xxx@xxx.com
+```
