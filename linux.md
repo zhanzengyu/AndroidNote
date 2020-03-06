@@ -122,3 +122,14 @@ git config --list
 git config --global user.name xxx
 git config --global user.email xxx@xxx.com
 ```
+
+### git 删除本地分支并拉取远程最新代码
+
+1. 切换到其他分支，然后删除本地分支  
+git checkout 其他分支  
+git branch -D 待删除分支
+
+2. 重新拉取  
+git fetch origin 待删除分支:待删除分支  
+git fetch 仓库地址   
+git fetch 仓库地址 待删除分支
