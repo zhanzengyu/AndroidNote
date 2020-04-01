@@ -133,3 +133,25 @@ git branch -D 待删除分支
 git fetch origin 待删除分支:待删除分支  
 git fetch 仓库地址   
 git fetch 仓库地址 待删除分支
+
+
+### git 回退单个文件
+1.进入到文件所在文件目录，或者能找到文件的路径
+
+查看文件的修改记录
+
+git log fileName
+
+2.回退到指定版本
+
+git reset ** fileName
+
+3.提交到本地参考：  
+git commit -m “提交的描述信息”
+
+4.更新到工作目录
+
+git checkout fileName
+5.提交到远程仓库
+
+git push origin 分支名
