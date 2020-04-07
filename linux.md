@@ -149,9 +149,8 @@ git reset ** fileName
 3.提交到本地参考：  
 git commit -m “提交的描述信息”
 
-4.更新到工作目录
-
+4.更新到工作目录  
 git checkout fileName
-5.提交到远程仓库
 
+5.提交到远程仓库  
 git push origin 分支名
