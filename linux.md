@@ -154,3 +154,9 @@ git checkout fileName
 
 5.提交到远程仓库  
 git push origin 分支名
+
+### 清空 shell history
+
+>history -c
+
+然后如果提示你重启 terminal 才能生效，就重新打开一个 terminal 即可
