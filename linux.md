@@ -1,5 +1,16 @@
 # Linux
 
+### 判断Apk是否签名
+
+用命令：
+```
+jarsigner -verify -verbose -certs <apk文件>
+```
+
+如果有Android Debug字樣就是debug
+
+如果已经签名: [证书的有效期为xxx至xxx]
+  
 
 ### vim 批量替换字符串
 
