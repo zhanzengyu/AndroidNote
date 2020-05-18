@@ -109,6 +109,31 @@ git push --force
 git reset HEAD~1
 ```
 
+### git remove untracked
+
+
+You can try command to clear the untracked files from the local
+
+Git 2.11 and newer versions:
+
+```
+git clean  -d  -f .
+```
+
+Older versions of Git:
+
+```
+git clean  -d  -f ""
+```
+Where -d can be replaced with the following:
+```
+-x ignored files are also removed as well as files unknown to Git.
+
+-d remove untracked directories in addition to untracked files.
+
+-f is required to force it to run.
+```
+
 ### git 分支重命名
 
 **没有推送到远程，本地修改**
