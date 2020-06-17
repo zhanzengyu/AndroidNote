@@ -1,5 +1,11 @@
 # Linux
 
+### Your branch is ahead of 'origin/master' by 3 commits.
+
+```
+git reset --hard origin/master
+```
+
 ### 判断Apk是否签名
 
 用命令：
