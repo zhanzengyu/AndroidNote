@@ -75,7 +75,7 @@ adb shell screenrecord /sdcard/screenrecord.mp4
 adb shell dumpsys window w | grep \\/ | grep name=
 ```
 
-### 获取手机当前显示的 Fragment 名称
+### 查看当前栈顶的Activity的Fragment
 ```
 adb shell dumpsys activity top
 ```
