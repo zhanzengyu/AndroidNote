@@ -74,6 +74,12 @@ adb shell screenrecord /sdcard/screenrecord.mp4
 ```
 adb shell dumpsys window w | grep \\/ | grep name=
 ```
+
+### 获取手机当前显示的 Fragment 名称
+```
+adb shell dumpsys activity top
+```
+
 ### 查找
 - 递归查看当前目录下存在指定字符串的文件  
 grep -rn '指定字符串' *
