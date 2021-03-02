@@ -1,5 +1,21 @@
 # Linux
 
+### Git .gitignore 不生效
+在项目开发过程中个，一般都会添加 .gitignore 文件，规则很简单，但有时会发现，规则不生效。  
+原因是 .gitignore 只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。  
+那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交。  
+
+```
+git rm -r --cached .
+
+git add .
+
+git commit -m 'update .gitignore'
+```
+
+Ref: https://developer.aliyun.com/article/634481
+
+
 ### 查看当前目录下所有文件夹的大小 -d 指深度，后面加一个数值
 ```
 du -d 1 -h
