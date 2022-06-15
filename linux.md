@@ -1,5 +1,34 @@
 # Linux
 
+
+### git stash 相关
+1. 查看
+```
+git stash list
+```
+2. 保存
+```
+git stash save 'message'
+```
+建议自己定义信息，避免忘记保存的是什么  
+3. 提取不删除
+```
+git stash apply
+```
+如果要提取指定的进度，则是通过第一步查看之后获得类似 stash@{stash_id} 的标示，然后追加在上面命令后面  
+4. 提取删除
+```
+git stash pop [stash_id]
+```
+5. 删除某个进度
+```
+git stash drop [stash_id]
+```
+6. 清空 stash 区
+```
+git stash clear
+```
+
 ### Git .gitignore 不生效
 在项目开发过程中个，一般都会添加 .gitignore 文件，规则很简单，但有时会发现，规则不生效。  
 原因是 .gitignore 只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。  
